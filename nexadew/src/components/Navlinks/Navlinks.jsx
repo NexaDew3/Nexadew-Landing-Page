@@ -9,6 +9,8 @@ function Navlinks({ onHomeClick, onServicesClick, onProjectsClick, onContactClic
       <li onClick={onServicesClick} className={baseClass}>Services</li>
       <li onClick={onProjectsClick} className={baseClass}>Projects</li>
       <li onClick={onContactClick} className={baseClass}>Contact</li>
+
+
     </ul>
   );
 }

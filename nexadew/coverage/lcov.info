@@ -1,4 +1,5 @@
 TN:
+<<<<<<< HEAD
 SF:src\components\Button\Button.jsx
 FN:3,Button
 FNF:1
@@ -63,10 +64,13 @@ BRF:4
 BRH:4
 end_of_record
 TN:
+=======
+>>>>>>> 2052fc5929db5c3fe3e4ce78d47165d73619b7ff
 SF:src\components\Navlinks\Navlinks.jsx
 FN:3,Navlinks
 FNF:1
 FNH:1
+<<<<<<< HEAD
 FNDA:25,Navlinks
 DA:4,25
 DA:6,25
@@ -76,4 +80,12 @@ BRDA:7,0,0,7
 BRDA:7,0,1,18
 BRF:2
 BRH:2
+=======
+FNDA:2,Navlinks
+DA:4,2
+LF:1
+LH:1
+BRF:0
+BRH:0
+>>>>>>> 2052fc5929db5c3fe3e4ce78d47165d73619b7ff
 end_of_record

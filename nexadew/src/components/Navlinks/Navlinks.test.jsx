@@ -22,6 +22,7 @@ describe("Navlinks Component", () => {
 
   test("renders all nav links", () => {
     setup();
+
     expect(screen.getByText("Home")).toBeInTheDocument();
     expect(screen.getByText("Services")).toBeInTheDocument();
     expect(screen.getByText("Projects")).toBeInTheDocument();
@@ -73,5 +74,6 @@ describe("Navlinks Component", () => {
     const ul = container.querySelector("ul");
     expect(ul.className).toMatch(/flex-row/);
     expect(ul.className).toMatch(/space-x-8/);
+
   });
 });
