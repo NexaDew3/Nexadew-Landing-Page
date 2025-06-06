@@ -1,45 +1,16 @@
 import React from "react";
 
-function Navlinks({
-  onHomeClick,
-  onServicesClick,
-  onProjectsClick,
-  onContactClick,
-}) {
+function Navlinks({ onHomeClick, onServicesClick, onProjectsClick, onContactClick, isMobile }) {
+  const baseClass = "cursor-pointer hover:underline";
+
   return (
-    <ul className="flex gap-12 text-lg font-medium text-gray-700">
-      <li>
-        <button
-          onClick={onHomeClick}
-          className="hover:text-blue-600 transition"
-        >
-          Home
-        </button>
-      </li>
-      <li>
-        <button
-          onClick={onServicesClick}
-          className="hover:text-blue-600 transition"
-        >
-          Services
-        </button>
-      </li>
-      <li>
-        <button
-          onClick={onProjectsClick}
-          className="hover:text-blue-600 transition"
-        >
-          Projects
-        </button>
-      </li>
-      <li>
-        <button
-          onClick={onContactClick}
-          className="hover:text-blue-600 transition"
-        >
-          Contact
-        </button>
-      </li>
+    <ul className={`flex ${isMobile ? "flex-col space-y-4" : "flex-row space-x-8"}`}>
+      <li onClick={onHomeClick} className={baseClass}>Home</li>
+      <li onClick={onServicesClick} className={baseClass}>Services</li>
+      <li onClick={onProjectsClick} className={baseClass}>Projects</li>
+      <li onClick={onContactClick} className={baseClass}>Contact</li>
+
+
     </ul>
   );
 }
