@@ -1,4 +1,3 @@
-// src/components/Button/Button.jsx
 import React from "react";
 
 function Button({
@@ -9,17 +8,19 @@ function Button({
   width = "w-auto",
   height = "h-auto",
   borderRadius = "rounded-md",
+  border = "",
+  hoverStyles = "",
   icon,
 }) {
   return (
     <button
       onClick={onClick}
-      className={`flex items-center justify-center gap-2 px-4 ${bgColor} ${textColor} ${width} ${height} ${borderRadius}`}
+      className={`flex items-center justify-center gap-2 px-4 ${bgColor} ${textColor} ${width} ${height} ${borderRadius} ${border} ${hoverStyles} transition-colors duration-300`}
     >
       {icon && (
         <img src={icon} alt="icon" className="h-5 w-5" data-testid="icon" />
       )}
-      <span>{label}</span> {/* Wrap label in <span> for easier targeting */}
+      <span>{label}</span>
     </button>
   );
 }
