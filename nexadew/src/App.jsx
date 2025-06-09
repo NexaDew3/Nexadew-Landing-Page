@@ -2,6 +2,7 @@ import React, { useRef } from "react";
 import Navbar from "./components/Navbar/Navbar";
 import Home from "./components/Home/Home";
 
+
 function App() {
   const homeRef = useRef(null);
   const servicesRef = useRef(null);

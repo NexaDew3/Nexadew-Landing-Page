@@ -12,14 +12,14 @@ describe("Home Component", () => {
     expect(
       screen.getByRole("heading", {
         name: /We Build Modern Front- end Solutions/i, // single space between Front- and end
-      })
+      }),
     ).toBeInTheDocument();
   });
 
   test("renders paragraph with correct text", () => {
     render(<Home />);
     expect(
-      screen.getByText(/Custom Web, Mobile for Startups & Businesses/i)
+      screen.getByText(/Custom Web, Mobile for Startups & Businesses/i),
     ).toBeInTheDocument();
   });
 
