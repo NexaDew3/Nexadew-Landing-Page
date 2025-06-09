@@ -1,5 +1,6 @@
 import React, { useRef } from "react";
 import Navbar from "./components/Navbar/Navbar";
+import Home from "./components/Home/Home";
 
 function App() {
   const homeRef = useRef(null);
@@ -20,8 +21,8 @@ function App() {
         onContactClick={() => scrollToSection(contactRef)}
       />
 
-      <div ref={homeRef} style={{ height: "100vh", paddingTop: "80px" }}>
-        <h1>Home Section</h1>
+      <div ref={homeRef} style={{ height: "100vh" }}>
+        <Home/>
       </div>
 
       <div ref={servicesRef} style={{ height: "100vh", paddingTop: "80px" }}>
