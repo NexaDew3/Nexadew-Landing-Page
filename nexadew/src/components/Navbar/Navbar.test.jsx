@@ -8,6 +8,10 @@ describe("Navbar Component", () => {
   const mockProjectsClick = jest.fn();
   const mockContactClick = jest.fn();
 
+  beforeEach(() => {
+    jest.clearAllMocks();
+  });
+
   const setup = () => {
     render(
       <Navbar
@@ -15,15 +19,40 @@ describe("Navbar Component", () => {
         onServicesClick={mockServicesClick}
         onProjectsClick={mockProjectsClick}
         onContactClick={mockContactClick}
-      />,
+      />
     );
   };
 
   test("renders logo and handles click", () => {
     setup();
     const logo = screen.getByText("NexaDew");
+    expect(logo).toBeInTheDocument();
     fireEvent.click(logo);
     expect(mockLogoClick).toHaveBeenCalled();
+  });
+
+  test("renders desktop nav links", () => {
+    setup();
+    expect(screen.getByText("Home")).toBeInTheDocument();
+    expect(screen.getByText("Services")).toBeInTheDocument();
+    expect(screen.getByText("Projects")).toBeInTheDocument();
+    expect(screen.getByText("Contact")).toBeInTheDocument();
+  });
+
+  test("desktop nav links call callbacks", () => {
+    setup();
+
+    fireEvent.click(screen.getByText("Home"));
+    expect(mockLogoClick).toHaveBeenCalled();
+
+    fireEvent.click(screen.getByText("Services"));
+    expect(mockServicesClick).toHaveBeenCalled();
+
+    fireEvent.click(screen.getByText("Projects"));
+    expect(mockProjectsClick).toHaveBeenCalled();
+
+    fireEvent.click(screen.getByText("Contact"));
+    expect(mockContactClick).toHaveBeenCalled();
   });
 
   test("toggles mobile menu", () => {
@@ -32,10 +61,9 @@ describe("Navbar Component", () => {
       name: /toggle mobile menu/i,
     });
     fireEvent.click(toggleButton);
-
     const mobileMenu = screen.getByTestId("mobile-menu");
-    const homeLink = within(mobileMenu).getByText("Home");
-    expect(homeLink).toBeInTheDocument();
+    expect(mobileMenu).toBeInTheDocument();
+    expect(within(mobileMenu).getByText("Home")).toBeInTheDocument();
   });
 
   test("mobile menu nav links call callbacks and close menu", () => {
@@ -49,24 +77,28 @@ describe("Navbar Component", () => {
 
     fireEvent.click(within(mobileMenu).getByText("Home"));
     expect(mockLogoClick).toHaveBeenCalled();
+    expect(screen.queryByTestId("mobile-menu")).not.toBeInTheDocument();
 
     fireEvent.click(toggleButton); // reopen
     fireEvent.click(
-      within(screen.getByTestId("mobile-menu")).getByText("Services"),
+      within(screen.getByTestId("mobile-menu")).getByText("Services")
     );
     expect(mockServicesClick).toHaveBeenCalled();
+    expect(screen.queryByTestId("mobile-menu")).not.toBeInTheDocument();
 
     fireEvent.click(toggleButton); // reopen
     fireEvent.click(
-      within(screen.getByTestId("mobile-menu")).getByText("Projects"),
+      within(screen.getByTestId("mobile-menu")).getByText("Projects")
     );
     expect(mockProjectsClick).toHaveBeenCalled();
+    expect(screen.queryByTestId("mobile-menu")).not.toBeInTheDocument();
 
     fireEvent.click(toggleButton); // reopen
     fireEvent.click(
-      within(screen.getByTestId("mobile-menu")).getByText("Contact"),
+      within(screen.getByTestId("mobile-menu")).getByText("Contact")
     );
     expect(mockContactClick).toHaveBeenCalled();
+    expect(screen.queryByTestId("mobile-menu")).not.toBeInTheDocument();
   });
 
   test("mobile quote button triggers alert and closes menu", () => {
@@ -82,5 +114,6 @@ describe("Navbar Component", () => {
     fireEvent.click(quoteBtn);
 
     expect(window.alert).toHaveBeenCalledWith("Quote requested");
+    expect(screen.queryByTestId("mobile-menu")).not.toBeInTheDocument();
   });
 });
