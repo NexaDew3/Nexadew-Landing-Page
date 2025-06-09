@@ -12,6 +12,7 @@
         background-image: url(../sort-arrow-sprite.png);
       }
     </style>
+
   </head>
 
   <body>
@@ -45,6 +46,8 @@
             <span class="quiet">Lines</span>
             <span class="fraction">1/1</span>
           </div>
+
+
         </div>
         <p class="quiet">
           Press <em>n</em> or <em>j</em> to go to the next uncovered block,
@@ -101,7 +104,7 @@
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">30x</span>
+<span class="cline-any cline-yes">4x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
@@ -120,13 +123,13 @@
 function Button({
   label,
   onClick,
-  bgColor = "bg-blue-600",
-  textColor = "text-white",
-  width = "w-auto",
-  height = "h-auto",
-  borderRadius = "rounded-md",
+  bgColor = <span class="branch-0 cbranch-no" title="branch not covered" >"bg-blue-600",</span>
+  textColor = <span class="branch-0 cbranch-no" title="branch not covered" >"text-white",</span>
+  width = <span class="branch-0 cbranch-no" title="branch not covered" >"w-auto",</span>
+  height = <span class="branch-0 cbranch-no" title="branch not covered" >"h-auto",</span>
+  borderRadius = <span class="branch-0 cbranch-no" title="branch not covered" >"rounded-md",</span>
   border = "",
-  hoverStyles = "",
+  hoverStyles = <span class="branch-0 cbranch-no" title="branch not covered" >"",</span>
   icon,
 }) {
   return (
@@ -135,7 +138,7 @@ function Button({
       className={`flex items-center justify-center gap-2 px-4 ${bgColor} ${textColor} ${width} ${height} ${borderRadius} ${border} ${hoverStyles} transition-colors duration-300`}
     &gt;
       {icon &amp;&amp; (
-        &lt;img src={icon} alt="icon" className="h-5 w-5" data-testid="icon" /&gt;
+<span class="branch-1 cbranch-no" title="branch not covered" >        &lt;img src={icon} alt="icon" className="h-5 w-5" data-testid="icon" /&gt;</span>
       )}
       &lt;span&gt;{label}&lt;/span&gt;
     &lt;/button&gt;
@@ -144,6 +147,7 @@ function Button({
 &nbsp;
 export default Button;
 &nbsp;</pre></td></tr></table></pre>
+
 
       <div class="push"></div>
       <!-- for sticky footer -->
@@ -168,4 +172,5 @@ export default Button;
     <script src="../sorter.js"></script>
     <script src="../block-navigation.js"></script>
   </body>
+
 </html>
