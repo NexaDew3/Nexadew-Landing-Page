@@ -2,7 +2,6 @@ import React, { useRef } from "react";
 import Navbar from "./components/Navbar/Navbar";
 import Home from "./components/Home/Home";
 
-
 function App() {
   const homeRef = useRef(null);
   const servicesRef = useRef(null);
@@ -23,7 +22,7 @@ function App() {
       />
 
       <div ref={homeRef} style={{ height: "100vh" }}>
-        <Home/>
+        <Home />
       </div>
 
       <div ref={servicesRef} style={{ height: "100vh", paddingTop: "80px" }}>
