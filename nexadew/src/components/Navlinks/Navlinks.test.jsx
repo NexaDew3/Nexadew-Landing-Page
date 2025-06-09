@@ -16,7 +16,7 @@ describe("Navlinks Component", () => {
         onProjectsClick={mockProjectsClick}
         onContactClick={mockContactClick}
         isMobile={isMobile}
-      />
+      />,
     );
   };
 
@@ -52,7 +52,7 @@ describe("Navlinks Component", () => {
         onProjectsClick={mockProjectsClick}
         onContactClick={mockContactClick}
         isMobile={true}
-      />
+      />,
     );
 
     const ul = container.querySelector("ul");
@@ -68,12 +68,11 @@ describe("Navlinks Component", () => {
         onProjectsClick={mockProjectsClick}
         onContactClick={mockContactClick}
         isMobile={false}
-      />
+      />,
     );
 
     const ul = container.querySelector("ul");
     expect(ul.className).toMatch(/flex-row/);
     expect(ul.className).toMatch(/space-x-8/);
-
   });
 });

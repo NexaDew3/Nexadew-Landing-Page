@@ -1,4 +1,621 @@
-{"C:\\Users\\dhanu\\OneDrive\\Desktop\\NEXADEW\\Nexadew-Landing-Page\\nexadew\\src\\components\\Button\\Button.jsx": {"path":"C:\\Users\\dhanu\\OneDrive\\Desktop\\NEXADEW\\Nexadew-Landing-Page\\nexadew\\src\\components\\Button\\Button.jsx","statementMap":{"0":{"start":{"line":15,"column":2},"end":{"line":25,"column":4}}},"fnMap":{"0":{"name":"Button","decl":{"start":{"line":3,"column":9},"end":{"line":3,"column":15}},"loc":{"start":{"line":14,"column":3},"end":{"line":26,"column":1}},"line":14}},"branchMap":{"0":{"loc":{"start":{"line":6,"column":2},"end":{"line":6,"column":25}},"type":"default-arg","locations":[{"start":{"line":6,"column":12},"end":{"line":6,"column":25}}],"line":6},"1":{"loc":{"start":{"line":7,"column":2},"end":{"line":7,"column":26}},"type":"default-arg","locations":[{"start":{"line":7,"column":14},"end":{"line":7,"column":26}}],"line":7},"2":{"loc":{"start":{"line":8,"column":2},"end":{"line":8,"column":18}},"type":"default-arg","locations":[{"start":{"line":8,"column":10},"end":{"line":8,"column":18}}],"line":8},"3":{"loc":{"start":{"line":9,"column":2},"end":{"line":9,"column":19}},"type":"default-arg","locations":[{"start":{"line":9,"column":11},"end":{"line":9,"column":19}}],"line":9},"4":{"loc":{"start":{"line":10,"column":2},"end":{"line":10,"column":29}},"type":"default-arg","locations":[{"start":{"line":10,"column":17},"end":{"line":10,"column":29}}],"line":10},"5":{"loc":{"start":{"line":11,"column":2},"end":{"line":11,"column":13}},"type":"default-arg","locations":[{"start":{"line":11,"column":11},"end":{"line":11,"column":13}}],"line":11},"6":{"loc":{"start":{"line":12,"column":2},"end":{"line":12,"column":18}},"type":"default-arg","locations":[{"start":{"line":12,"column":16},"end":{"line":12,"column":18}}],"line":12},"7":{"loc":{"start":{"line":20,"column":7},"end":{"line":22,"column":7}},"type":"binary-expr","locations":[{"start":{"line":20,"column":7},"end":{"line":20,"column":11}},{"start":{"line":21,"column":8},"end":{"line":21,"column":76}}],"line":20}},"s":{"0":4},"f":{"0":4},"b":{"0":[0],"1":[0],"2":[0],"3":[0],"4":[0],"5":[4],"6":[0],"7":[4,0]},"_coverageSchema":"1a1c01bbd47fc00a2c39e90264f33305004495a9","hash":"f25644a7905a095b466fa2952e08609c90d800e5"}
-,"C:\\Users\\dhanu\\OneDrive\\Desktop\\NEXADEW\\Nexadew-Landing-Page\\nexadew\\src\\components\\Card\\Card.jsx": {"path":"C:\\Users\\dhanu\\OneDrive\\Desktop\\NEXADEW\\Nexadew-Landing-Page\\nexadew\\src\\components\\Card\\Card.jsx","statementMap":{"0":{"start":{"line":5,"column":4},"end":{"line":5,"column":91}},"1":{"start":{"line":7,"column":2},"end":{"line":13,"column":3}},"2":{"start":{"line":8,"column":4},"end":{"line":12,"column":6}},"3":{"start":{"line":15,"column":2},"end":{"line":29,"column":3}},"4":{"start":{"line":16,"column":4},"end":{"line":28,"column":6}},"5":{"start":{"line":31,"column":2},"end":{"line":55,"column":3}},"6":{"start":{"line":32,"column":4},"end":{"line":54,"column":6}},"7":{"start":{"line":57,"column":2},"end":{"line":57,"column":14}}},"fnMap":{"0":{"name":"Card","decl":{"start":{"line":3,"column":9},"end":{"line":3,"column":13}},"loc":{"start":{"line":3,"column":56},"end":{"line":58,"column":1}},"line":3}},"branchMap":{"0":{"loc":{"start":{"line":7,"column":2},"end":{"line":13,"column":3}},"type":"if","locations":[{"start":{"line":7,"column":2},"end":{"line":13,"column":3}},{"start":{},"end":{}}],"line":7},"1":{"loc":{"start":{"line":15,"column":2},"end":{"line":29,"column":3}},"type":"if","locations":[{"start":{"line":15,"column":2},"end":{"line":29,"column":3}},{"start":{},"end":{}}],"line":15},"2":{"loc":{"start":{"line":31,"column":2},"end":{"line":55,"column":3}},"type":"if","locations":[{"start":{"line":31,"column":2},"end":{"line":55,"column":3}},{"start":{},"end":{}}],"line":31}},"s":{"0":4,"1":4,"2":1,"3":3,"4":1,"5":2,"6":1,"7":1},"f":{"0":4},"b":{"0":[1,3],"1":[1,2],"2":[1,1]},"_coverageSchema":"1a1c01bbd47fc00a2c39e90264f33305004495a9","hash":"c1a75c03a640bfd9fc3381a667dc17d91d1d4255"}
-,"C:\\Users\\dhanu\\OneDrive\\Desktop\\NEXADEW\\Nexadew-Landing-Page\\nexadew\\src\\components\\Home\\Home.jsx": {"path":"C:\\Users\\dhanu\\OneDrive\\Desktop\\NEXADEW\\Nexadew-Landing-Page\\nexadew\\src\\components\\Home\\Home.jsx","statementMap":{"0":{"start":{"line":5,"column":2},"end":{"line":51,"column":4}},"1":{"start":{"line":27,"column":25},"end":{"line":27,"column":54}},"2":{"start":{"line":42,"column":12},"end":{"line":46,"column":14}}},"fnMap":{"0":{"name":"Home","decl":{"start":{"line":4,"column":9},"end":{"line":4,"column":13}},"loc":{"start":{"line":4,"column":16},"end":{"line":52,"column":1}},"line":4},"1":{"name":"(anonymous_1)","decl":{"start":{"line":27,"column":19},"end":{"line":27,"column":20}},"loc":{"start":{"line":27,"column":25},"end":{"line":27,"column":54}},"line":27},"2":{"name":"(anonymous_2)","decl":{"start":{"line":41,"column":29},"end":{"line":41,"column":30}},"loc":{"start":{"line":42,"column":12},"end":{"line":46,"column":14}},"line":42}},"branchMap":{},"s":{"0":4,"1":1,"2":24},"f":{"0":4,"1":1,"2":24},"b":{},"_coverageSchema":"1a1c01bbd47fc00a2c39e90264f33305004495a9","hash":"6dd410d10c059072c65551144cf045fa1ae7d8b6"}
+
+{
+  "C:\\Users\\dhanu\\OneDrive\\Desktop\\NEXADEW\\Nexadew-Landing-Page\\nexadew\\src\\components\\Button\\Button.jsx": {
+    "path": "C:\\Users\\dhanu\\OneDrive\\Desktop\\NEXADEW\\Nexadew-Landing-Page\\nexadew\\src\\components\\Button\\Button.jsx",
+    "statementMap": {
+      "0": {
+        "start": { "line": 15, "column": 2 },
+        "end": { "line": 25, "column": 4 }
+      }
+    },
+    "fnMap": {
+      "0": {
+        "name": "Button",
+        "decl": {
+          "start": { "line": 3, "column": 9 },
+          "end": { "line": 3, "column": 15 }
+        },
+        "loc": {
+          "start": { "line": 14, "column": 3 },
+          "end": { "line": 26, "column": 1 }
+        },
+        "line": 14
+      }
+    },
+    "branchMap": {
+      "0": {
+        "loc": {
+          "start": { "line": 6, "column": 2 },
+          "end": { "line": 6, "column": 25 }
+        },
+        "type": "default-arg",
+        "locations": [
+          {
+            "start": { "line": 6, "column": 12 },
+            "end": { "line": 6, "column": 25 }
+          }
+        ],
+        "line": 6
+      },
+      "1": {
+        "loc": {
+          "start": { "line": 7, "column": 2 },
+          "end": { "line": 7, "column": 26 }
+        },
+        "type": "default-arg",
+        "locations": [
+          {
+            "start": { "line": 7, "column": 14 },
+            "end": { "line": 7, "column": 26 }
+          }
+        ],
+        "line": 7
+      },
+      "2": {
+        "loc": {
+          "start": { "line": 8, "column": 2 },
+          "end": { "line": 8, "column": 18 }
+        },
+        "type": "default-arg",
+        "locations": [
+          {
+            "start": { "line": 8, "column": 10 },
+            "end": { "line": 8, "column": 18 }
+          }
+        ],
+        "line": 8
+      },
+      "3": {
+        "loc": {
+          "start": { "line": 9, "column": 2 },
+          "end": { "line": 9, "column": 19 }
+        },
+        "type": "default-arg",
+        "locations": [
+          {
+            "start": { "line": 9, "column": 11 },
+            "end": { "line": 9, "column": 19 }
+          }
+        ],
+        "line": 9
+      },
+      "4": {
+        "loc": {
+          "start": { "line": 10, "column": 2 },
+          "end": { "line": 10, "column": 29 }
+        },
+        "type": "default-arg",
+        "locations": [
+          {
+            "start": { "line": 10, "column": 17 },
+            "end": { "line": 10, "column": 29 }
+          }
+        ],
+        "line": 10
+      },
+      "5": {
+        "loc": {
+          "start": { "line": 11, "column": 2 },
+          "end": { "line": 11, "column": 13 }
+        },
+        "type": "default-arg",
+        "locations": [
+          {
+            "start": { "line": 11, "column": 11 },
+            "end": { "line": 11, "column": 13 }
+          }
+        ],
+        "line": 11
+      },
+      "6": {
+        "loc": {
+          "start": { "line": 12, "column": 2 },
+          "end": { "line": 12, "column": 18 }
+        },
+        "type": "default-arg",
+        "locations": [
+          {
+            "start": { "line": 12, "column": 16 },
+            "end": { "line": 12, "column": 18 }
+          }
+        ],
+        "line": 12
+      },
+      "7": {
+        "loc": {
+          "start": { "line": 20, "column": 7 },
+          "end": { "line": 22, "column": 7 }
+        },
+        "type": "binary-expr",
+        "locations": [
+          {
+            "start": { "line": 20, "column": 7 },
+            "end": { "line": 20, "column": 11 }
+          },
+          {
+            "start": { "line": 21, "column": 8 },
+            "end": { "line": 21, "column": 76 }
+          }
+        ],
+        "line": 20
+      }
+    },
+    "s": { "0": 30 },
+    "f": { "0": 30 },
+    "b": {
+      "0": [3],
+      "1": [3],
+      "2": [3],
+      "3": [3],
+      "4": [3],
+      "5": [13],
+      "6": [9],
+      "7": [30, 1]
+    },
+    "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    "hash": "f25644a7905a095b466fa2952e08609c90d800e5"
+  },
+  "C:\\Users\\dhanu\\OneDrive\\Desktop\\NEXADEW\\Nexadew-Landing-Page\\nexadew\\src\\components\\Card\\Card.jsx": {
+    "path": "C:\\Users\\dhanu\\OneDrive\\Desktop\\NEXADEW\\Nexadew-Landing-Page\\nexadew\\src\\components\\Card\\Card.jsx",
+    "statementMap": {
+      "0": {
+        "start": { "line": 5, "column": 4 },
+        "end": { "line": 5, "column": 91 }
+      },
+      "1": {
+        "start": { "line": 7, "column": 2 },
+        "end": { "line": 13, "column": 3 }
+      },
+      "2": {
+        "start": { "line": 8, "column": 4 },
+        "end": { "line": 12, "column": 6 }
+      },
+      "3": {
+        "start": { "line": 15, "column": 2 },
+        "end": { "line": 29, "column": 3 }
+      },
+      "4": {
+        "start": { "line": 16, "column": 4 },
+        "end": { "line": 28, "column": 6 }
+      },
+      "5": {
+        "start": { "line": 31, "column": 2 },
+        "end": { "line": 55, "column": 3 }
+      },
+      "6": {
+        "start": { "line": 32, "column": 4 },
+        "end": { "line": 54, "column": 6 }
+      },
+      "7": {
+        "start": { "line": 57, "column": 2 },
+        "end": { "line": 57, "column": 14 }
+      }
+    },
+    "fnMap": {
+      "0": {
+        "name": "Card",
+        "decl": {
+          "start": { "line": 3, "column": 9 },
+          "end": { "line": 3, "column": 13 }
+        },
+        "loc": {
+          "start": { "line": 3, "column": 56 },
+          "end": { "line": 58, "column": 1 }
+        },
+        "line": 3
+      }
+    },
+    "branchMap": {
+      "0": {
+        "loc": {
+          "start": { "line": 7, "column": 2 },
+          "end": { "line": 13, "column": 3 }
+        },
+        "type": "if",
+        "locations": [
+          {
+            "start": { "line": 7, "column": 2 },
+            "end": { "line": 13, "column": 3 }
+          },
+          { "start": {}, "end": {} }
+        ],
+        "line": 7
+      },
+      "1": {
+        "loc": {
+          "start": { "line": 15, "column": 2 },
+          "end": { "line": 29, "column": 3 }
+        },
+        "type": "if",
+        "locations": [
+          {
+            "start": { "line": 15, "column": 2 },
+            "end": { "line": 29, "column": 3 }
+          },
+          { "start": {}, "end": {} }
+        ],
+        "line": 15
+      },
+      "2": {
+        "loc": {
+          "start": { "line": 31, "column": 2 },
+          "end": { "line": 55, "column": 3 }
+        },
+        "type": "if",
+        "locations": [
+          {
+            "start": { "line": 31, "column": 2 },
+            "end": { "line": 55, "column": 3 }
+          },
+          { "start": {}, "end": {} }
+        ],
+        "line": 31
+      }
+    },
+    "s": { "0": 10, "1": 10, "2": 1, "3": 9, "4": 7, "5": 2, "6": 1, "7": 1 },
+    "f": { "0": 10 },
+    "b": { "0": [1, 9], "1": [7, 2], "2": [1, 1] },
+    "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    "hash": "c1a75c03a640bfd9fc3381a667dc17d91d1d4255"
+  },
+  "C:\\Users\\dhanu\\OneDrive\\Desktop\\NEXADEW\\Nexadew-Landing-Page\\nexadew\\src\\components\\Home\\Home.jsx": {
+    "path": "C:\\Users\\dhanu\\OneDrive\\Desktop\\NEXADEW\\Nexadew-Landing-Page\\nexadew\\src\\components\\Home\\Home.jsx",
+    "statementMap": {
+      "0": {
+        "start": { "line": 5, "column": 2 },
+        "end": { "line": 51, "column": 4 }
+      },
+      "1": {
+        "start": { "line": 27, "column": 25 },
+        "end": { "line": 27, "column": 54 }
+      },
+      "2": {
+        "start": { "line": 42, "column": 12 },
+        "end": { "line": 46, "column": 14 }
+      }
+    },
+    "fnMap": {
+      "0": {
+        "name": "Home",
+        "decl": {
+          "start": { "line": 4, "column": 9 },
+          "end": { "line": 4, "column": 13 }
+        },
+        "loc": {
+          "start": { "line": 4, "column": 16 },
+          "end": { "line": 52, "column": 1 }
+        },
+        "line": 4
+      },
+      "1": {
+        "name": "(anonymous_1)",
+        "decl": {
+          "start": { "line": 27, "column": 19 },
+          "end": { "line": 27, "column": 20 }
+        },
+        "loc": {
+          "start": { "line": 27, "column": 25 },
+          "end": { "line": 27, "column": 54 }
+        },
+        "line": 27
+      },
+      "2": {
+        "name": "(anonymous_2)",
+        "decl": {
+          "start": { "line": 41, "column": 29 },
+          "end": { "line": 41, "column": 30 }
+        },
+        "loc": {
+          "start": { "line": 42, "column": 12 },
+          "end": { "line": 46, "column": 14 }
+        },
+        "line": 42
+      }
+    },
+    "branchMap": {},
+    "s": { "0": 4, "1": 1, "2": 24 },
+    "f": { "0": 4, "1": 1, "2": 24 },
+    "b": {},
+    "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    "hash": "6dd410d10c059072c65551144cf045fa1ae7d8b6"
+  },
+  "C:\\Users\\dhanu\\OneDrive\\Desktop\\NEXADEW\\Nexadew-Landing-Page\\nexadew\\src\\components\\Navbar\\Navbar.jsx": {
+    "path": "C:\\Users\\dhanu\\OneDrive\\Desktop\\NEXADEW\\Nexadew-Landing-Page\\nexadew\\src\\components\\Navbar\\Navbar.jsx",
+    "statementMap": {
+      "0": {
+        "start": { "line": 11, "column": 50 },
+        "end": { "line": 11, "column": 65 }
+      },
+      "1": {
+        "start": { "line": 13, "column": 2 },
+        "end": { "line": 104, "column": 4 }
+      },
+      "2": {
+        "start": { "line": 48, "column": 27 },
+        "end": { "line": 48, "column": 51 }
+      },
+      "3": {
+        "start": { "line": 55, "column": 27 },
+        "end": { "line": 55, "column": 65 }
+      },
+      "4": {
+        "start": { "line": 73, "column": 14 },
+        "end": { "line": 73, "column": 28 }
+      },
+      "5": {
+        "start": { "line": 74, "column": 14 },
+        "end": { "line": 74, "column": 41 }
+      },
+      "6": {
+        "start": { "line": 77, "column": 14 },
+        "end": { "line": 77, "column": 32 }
+      },
+      "7": {
+        "start": { "line": 78, "column": 14 },
+        "end": { "line": 78, "column": 41 }
+      },
+      "8": {
+        "start": { "line": 81, "column": 14 },
+        "end": { "line": 81, "column": 32 }
+      },
+      "9": {
+        "start": { "line": 82, "column": 14 },
+        "end": { "line": 82, "column": 41 }
+      },
+      "10": {
+        "start": { "line": 85, "column": 14 },
+        "end": { "line": 85, "column": 31 }
+      },
+      "11": {
+        "start": { "line": 86, "column": 14 },
+        "end": { "line": 86, "column": 41 }
+      },
+      "12": {
+        "start": { "line": 97, "column": 14 },
+        "end": { "line": 97, "column": 39 }
+      },
+      "13": {
+        "start": { "line": 98, "column": 14 },
+        "end": { "line": 98, "column": 41 }
+      }
+    },
+    "fnMap": {
+      "0": {
+        "name": "Navbar",
+        "decl": {
+          "start": { "line": 5, "column": 9 },
+          "end": { "line": 5, "column": 15 }
+        },
+        "loc": {
+          "start": { "line": 10, "column": 3 },
+          "end": { "line": 105, "column": 1 }
+        },
+        "line": 10
+      },
+      "1": {
+        "name": "(anonymous_1)",
+        "decl": {
+          "start": { "line": 48, "column": 21 },
+          "end": { "line": 48, "column": 22 }
+        },
+        "loc": {
+          "start": { "line": 48, "column": 27 },
+          "end": { "line": 48, "column": 51 }
+        },
+        "line": 48
+      },
+      "2": {
+        "name": "(anonymous_2)",
+        "decl": {
+          "start": { "line": 55, "column": 21 },
+          "end": { "line": 55, "column": 22 }
+        },
+        "loc": {
+          "start": { "line": 55, "column": 27 },
+          "end": { "line": 55, "column": 65 }
+        },
+        "line": 55
+      },
+      "3": {
+        "name": "(anonymous_3)",
+        "decl": {
+          "start": { "line": 72, "column": 25 },
+          "end": { "line": 72, "column": 26 }
+        },
+        "loc": {
+          "start": { "line": 72, "column": 31 },
+          "end": { "line": 75, "column": 13 }
+        },
+        "line": 72
+      },
+      "4": {
+        "name": "(anonymous_4)",
+        "decl": {
+          "start": { "line": 76, "column": 29 },
+          "end": { "line": 76, "column": 30 }
+        },
+        "loc": {
+          "start": { "line": 76, "column": 35 },
+          "end": { "line": 79, "column": 13 }
+        },
+        "line": 76
+      },
+      "5": {
+        "name": "(anonymous_5)",
+        "decl": {
+          "start": { "line": 80, "column": 29 },
+          "end": { "line": 80, "column": 30 }
+        },
+        "loc": {
+          "start": { "line": 80, "column": 35 },
+          "end": { "line": 83, "column": 13 }
+        },
+        "line": 80
+      },
+      "6": {
+        "name": "(anonymous_6)",
+        "decl": {
+          "start": { "line": 84, "column": 28 },
+          "end": { "line": 84, "column": 29 }
+        },
+        "loc": {
+          "start": { "line": 84, "column": 34 },
+          "end": { "line": 87, "column": 13 }
+        },
+        "line": 84
+      },
+      "7": {
+        "name": "(anonymous_7)",
+        "decl": {
+          "start": { "line": 96, "column": 21 },
+          "end": { "line": 96, "column": 22 }
+        },
+        "loc": {
+          "start": { "line": 96, "column": 27 },
+          "end": { "line": 99, "column": 13 }
+        },
+        "line": 96
+      }
+    },
+    "branchMap": {
+      "0": {
+        "loc": {
+          "start": { "line": 59, "column": 13 },
+          "end": { "line": 59, "column": 41 }
+        },
+        "type": "cond-expr",
+        "locations": [
+          {
+            "start": { "line": 59, "column": 32 },
+            "end": { "line": 59, "column": 35 }
+          },
+          {
+            "start": { "line": 59, "column": 38 },
+            "end": { "line": 59, "column": 41 }
+          }
+        ],
+        "line": 59
+      },
+      "1": {
+        "loc": {
+          "start": { "line": 65, "column": 7 },
+          "end": { "line": 102, "column": 7 }
+        },
+        "type": "binary-expr",
+        "locations": [
+          {
+            "start": { "line": 65, "column": 7 },
+            "end": { "line": 65, "column": 23 }
+          },
+          {
+            "start": { "line": 66, "column": 8 },
+            "end": { "line": 101, "column": 14 }
+          }
+        ],
+        "line": 65
+      }
+    },
+    "s": {
+      "0": 17,
+      "1": 17,
+      "2": 0,
+      "3": 6,
+      "4": 1,
+      "5": 1,
+      "6": 1,
+      "7": 1,
+      "8": 1,
+      "9": 1,
+      "10": 1,
+      "11": 1,
+      "12": 1,
+      "13": 1
+    },
+    "f": { "0": 17, "1": 0, "2": 6, "3": 1, "4": 1, "5": 1, "6": 1, "7": 1 },
+    "b": { "0": [6, 11], "1": [17, 6] },
+    "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    "hash": "c97fb7d830b78ed7d6f4ed8d269436ad02cb2763"
+  },
+  "C:\\Users\\dhanu\\OneDrive\\Desktop\\NEXADEW\\Nexadew-Landing-Page\\nexadew\\src\\components\\Navlinks\\Navlinks.jsx": {
+    "path": "C:\\Users\\dhanu\\OneDrive\\Desktop\\NEXADEW\\Nexadew-Landing-Page\\nexadew\\src\\components\\Navlinks\\Navlinks.jsx",
+    "statementMap": {
+      "0": {
+        "start": { "line": 4, "column": 20 },
+        "end": { "line": 4, "column": 52 }
+      },
+      "1": {
+        "start": { "line": 6, "column": 2 },
+        "end": { "line": 15, "column": 4 }
+      }
+    },
+    "fnMap": {
+      "0": {
+        "name": "Navlinks",
+        "decl": {
+          "start": { "line": 3, "column": 9 },
+          "end": { "line": 3, "column": 17 }
+        },
+        "loc": {
+          "start": { "line": 3, "column": 95 },
+          "end": { "line": 16, "column": 1 }
+        },
+        "line": 3
+      }
+    },
+    "branchMap": {
+      "0": {
+        "loc": {
+          "start": { "line": 7, "column": 27 },
+          "end": { "line": 7, "column": 81 }
+        },
+        "type": "cond-expr",
+        "locations": [
+          {
+            "start": { "line": 7, "column": 38 },
+            "end": { "line": 7, "column": 58 }
+          },
+          {
+            "start": { "line": 7, "column": 61 },
+            "end": { "line": 7, "column": 81 }
+          }
+        ],
+        "line": 7
+      }
+    },
+    "s": { "0": 27, "1": 27 },
+    "f": { "0": 27 },
+    "b": { "0": [7, 20] },
+    "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    "hash": "0f7c90ed25af64e95eb577b1b6d632663a3d18ce"
+  },
+  "C:\\Users\\dhanu\\OneDrive\\Desktop\\NEXADEW\\Nexadew-Landing-Page\\nexadew\\src\\components\\Services\\Services.jsx": {
+    "path": "C:\\Users\\dhanu\\OneDrive\\Desktop\\NEXADEW\\Nexadew-Landing-Page\\nexadew\\src\\components\\Services\\Services.jsx",
+    "statementMap": {
+      "0": {
+        "start": { "line": 6, "column": 2 },
+        "end": { "line": 30, "column": 4 }
+      }
+    },
+    "fnMap": {
+      "0": {
+        "name": "Services",
+        "decl": {
+          "start": { "line": 5, "column": 9 },
+          "end": { "line": 5, "column": 17 }
+        },
+        "loc": {
+          "start": { "line": 5, "column": 20 },
+          "end": { "line": 31, "column": 1 }
+        },
+        "line": 5
+      }
+    },
+    "branchMap": {},
+    "s": { "0": 2 },
+    "f": { "0": 2 },
+    "b": {},
+    "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    "hash": "3bcb451d8b9ed743287cc3bb110e5f361b3db81d"
+  }
+
 }

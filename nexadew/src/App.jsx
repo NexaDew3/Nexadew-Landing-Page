@@ -23,7 +23,7 @@ function App() {
       />
 
       <div ref={homeRef} style={{ height: "100vh" }}>
-        <Home/>
+        <Home />
       </div>
 
       <div ref={servicesRef} style={{ height: "100vh", paddingTop: "80px" }}>

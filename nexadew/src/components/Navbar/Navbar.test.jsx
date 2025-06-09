@@ -19,7 +19,7 @@ describe("Navbar Component", () => {
         onServicesClick={mockServicesClick}
         onProjectsClick={mockProjectsClick}
         onContactClick={mockContactClick}
-      />
+      />,
     );
   };
 
@@ -81,21 +81,21 @@ describe("Navbar Component", () => {
 
     fireEvent.click(toggleButton); // reopen
     fireEvent.click(
-      within(screen.getByTestId("mobile-menu")).getByText("Services")
+      within(screen.getByTestId("mobile-menu")).getByText("Services"),
     );
     expect(mockServicesClick).toHaveBeenCalled();
     expect(screen.queryByTestId("mobile-menu")).not.toBeInTheDocument();
 
     fireEvent.click(toggleButton); // reopen
     fireEvent.click(
-      within(screen.getByTestId("mobile-menu")).getByText("Projects")
+      within(screen.getByTestId("mobile-menu")).getByText("Projects"),
     );
     expect(mockProjectsClick).toHaveBeenCalled();
     expect(screen.queryByTestId("mobile-menu")).not.toBeInTheDocument();
 
     fireEvent.click(toggleButton); // reopen
     fireEvent.click(
-      within(screen.getByTestId("mobile-menu")).getByText("Contact")
+      within(screen.getByTestId("mobile-menu")).getByText("Contact"),
     );
     expect(mockContactClick).toHaveBeenCalled();
     expect(screen.queryByTestId("mobile-menu")).not.toBeInTheDocument();
