@@ -6,11 +6,11 @@ function Home() {
     <section className="bg-black text-white min-h-screen flex flex-col justify-center items-center text-center relative px-4 pb-10">
       {/* Hero Content */}
       <div className="z-10 max-w-l flex flex-col items-center">
-       <h1 className="text-3xl sm:text-4xl md:text-6xl font-bold leading-[60px] mb-4">
-  We Build Modern Front-<br />
-  end Solutions
-</h1>
-
+        <h1 className="text-3xl sm:text-4xl md:text-6xl font-bold leading-[60px] mb-4">
+          We Build Modern Front-
+          <br />
+          end Solutions
+        </h1>
 
         <p className="text-base sm:text-lg md:text-xl mb-6">
           Custom Web, Mobile for Startups & Businesses
