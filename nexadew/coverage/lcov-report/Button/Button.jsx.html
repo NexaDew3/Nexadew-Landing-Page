@@ -12,7 +12,6 @@
         background-image: url(../sort-arrow-sprite.png);
       }
     </style>
-
   </head>
 
   <body>
@@ -46,7 +45,6 @@
             <span class="quiet">Lines</span>
             <span class="fraction">1/1</span>
           </div>
-
 
         </div>
         <p class="quiet">
@@ -104,7 +102,7 @@
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">4x</span>
+<span class="cline-any cline-yes">30x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
@@ -123,13 +121,13 @@
 function Button({
   label,
   onClick,
-  bgColor = <span class="branch-0 cbranch-no" title="branch not covered" >"bg-blue-600",</span>
-  textColor = <span class="branch-0 cbranch-no" title="branch not covered" >"text-white",</span>
-  width = <span class="branch-0 cbranch-no" title="branch not covered" >"w-auto",</span>
-  height = <span class="branch-0 cbranch-no" title="branch not covered" >"h-auto",</span>
-  borderRadius = <span class="branch-0 cbranch-no" title="branch not covered" >"rounded-md",</span>
+  bgColor = "bg-blue-600",
+  textColor = "text-white",
+  width = "w-auto",
+  height = "h-auto",
+  borderRadius = "rounded-md",
   border = "",
-  hoverStyles = <span class="branch-0 cbranch-no" title="branch not covered" >"",</span>
+  hoverStyles = "",
   icon,
 }) {
   return (
@@ -138,7 +136,7 @@ function Button({
       className={`flex items-center justify-center gap-2 px-4 ${bgColor} ${textColor} ${width} ${height} ${borderRadius} ${border} ${hoverStyles} transition-colors duration-300`}
     &gt;
       {icon &amp;&amp; (
-<span class="branch-1 cbranch-no" title="branch not covered" >        &lt;img src={icon} alt="icon" className="h-5 w-5" data-testid="icon" /&gt;</span>
+        &lt;img src={icon} alt="icon" className="h-5 w-5" data-testid="icon" /&gt;
       )}
       &lt;span&gt;{label}&lt;/span&gt;
     &lt;/button&gt;
@@ -161,7 +159,8 @@ export default Button;
         rel="noopener noreferrer"
         >istanbul</a
       >
-      at 2025-06-09T11:26:54.707Z
+      at 2025-06-10T04:42:17.659Z
+
     </div>
     <script src="../prettify.js"></script>
     <script>
