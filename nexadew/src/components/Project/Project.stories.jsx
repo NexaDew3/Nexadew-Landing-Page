@@ -1,7 +1,7 @@
 // src/components/Projects/Projects.stories.jsx
 
 import React from "react";
-import Projects from "./Projects";
+import Projects from "./Project";
 
 export default {
   title: "Components/Projects",

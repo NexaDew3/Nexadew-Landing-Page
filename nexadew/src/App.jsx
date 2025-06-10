@@ -6,6 +6,7 @@ import AboutUs from "./components/About/About";
 import Projects from "./components/Project/Project";
 
 
+
 function App() {
   const homeRef = useRef(null);
   const servicesRef = useRef(null);
@@ -32,18 +33,22 @@ function App() {
         <AboutUs />
       </div>
 
-      <div ref={servicesRef} >
+
+      <div ref={servicesRef}>
 
         <Services />
       </div>
 
       <div ref={projectsRef}>
-        <Projects/>
+
+        <Projects />
+
       </div>
 
       <div ref={contactRef} style={{ height: "100vh", paddingTop: "80px" }}>
         <h1>Contact Section</h1>
       </div>
+      
     </>
   );
 }
