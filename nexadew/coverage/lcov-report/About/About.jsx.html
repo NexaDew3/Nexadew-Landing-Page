@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <title>Code coverage report for Button/Button.jsx</title>
+    <title>Code coverage report for About/About.jsx</title>
     <meta charset="utf-8" />
     <link rel="stylesheet" href="../prettify.css" />
     <link rel="stylesheet" href="../base.css" />
@@ -19,7 +19,7 @@
       <div class="pad1">
         <h1>
           <a href="../index.html">All files</a> /
-          <a href="index.html">Button</a> Button.jsx
+          <a href="index.html">About</a> About.jsx
         </h1>
         <div class="clearfix">
           <div class="fl pad1y space-right2">
@@ -31,7 +31,7 @@
           <div class="fl pad1y space-right2">
             <span class="strong">100% </span>
             <span class="quiet">Branches</span>
-            <span class="fraction">9/9</span>
+            <span class="fraction">0/0</span>
           </div>
 
           <div class="fl pad1y space-right2">
@@ -81,27 +81,15 @@
 <a name='L20'></a><a href='#L20'>20</a>
 <a name='L21'></a><a href='#L21'>21</a>
 <a name='L22'></a><a href='#L22'>22</a>
-<a name='L23'></a><a href='#L23'>23</a>
-<a name='L24'></a><a href='#L24'>24</a>
-<a name='L25'></a><a href='#L25'>25</a>
-<a name='L26'></a><a href='#L26'>26</a>
-<a name='L27'></a><a href='#L27'>27</a>
-<a name='L28'></a><a href='#L28'>28</a>
-<a name='L29'></a><a href='#L29'>29</a></td><td class="line-coverage quiet"><span class="cline-any cline-neutral">&nbsp;</span>
+<a name='L23'></a><a href='#L23'>23</a></td><td class="line-coverage quiet"><span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">2x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">30x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
@@ -116,33 +104,27 @@
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">import React from "react";
+import Card from "../Card/Card";
 &nbsp;
-function Button({
-  label,
-  onClick,
-  bgColor = "bg-blue-600",
-  textColor = "text-white",
-  width = "w-auto",
-  height = "h-auto",
-  borderRadius = "rounded-md",
-  border = "",
-  hoverStyles = "",
-  icon,
-}) {
+function AboutUs() {
   return (
-    &lt;button
-      onClick={onClick}
-      className={`flex items-center justify-center gap-2 px-4 ${bgColor} ${textColor} ${width} ${height} ${borderRadius} ${border} ${hoverStyles} transition-colors duration-300`}
-    &gt;
-      {icon &amp;&amp; (
-        &lt;img src={icon} alt="icon" className="h-5 w-5" data-testid="icon" /&gt;
-      )}
-      &lt;span&gt;{label}&lt;/span&gt;
-    &lt;/button&gt;
+    &lt;section className="py-12 px-4 text-center bg-black"&gt;
+      &lt;h2 className="font-[Geist,sans-serif] text-[36px] font-bold leading-[40px] text-white mb-6"&gt;
+        About Us
+      &lt;/h2&gt;
+      &lt;Card
+        variant="about"
+        text={
+          &lt;p className="font-[Geist,sans-serif] text-[18px] font-normal leading-[28px] text-[rgb(209,213,219)]"&gt;
+            We specialize in transforming modern UI/UX designs into high-performance, pixel-perfect front-end applications. From Figma to functional React code, we deliver responsive, production-ready interfaces in record time.
+          &lt;/p&gt;
+        }
+      /&gt;
+    &lt;/section&gt;
   );
 }
 &nbsp;
-export default Button;
+export default AboutUs;
 &nbsp;</pre></td></tr></table></pre>
 
       <div class="push"></div>

@@ -2,7 +2,7 @@ import React from "react";
 
 function Card({ variant, title, subtitle, text, icon }) {
   const baseClasses =
-    "bg-[#0D0F1A] text-white rounded-xl p-6 shadow-md transition-transform hover:scale-105";
+    "bg-[#0D0F1A] text-white rounded-xl border border-grey-100 p-6 shadow-md";
 
   if (variant === "about") {
     return (
@@ -14,16 +14,12 @@ function Card({ variant, title, subtitle, text, icon }) {
 
   if (variant === "service") {
     return (
-      <div
-        className={`${baseClasses} w-full h-full flex flex-col justify-between border border-[#1F1F1F]`}
-      >
-        <div>
-          <div className="bg-[#1F1F1F] p-3 inline-flex justify-center items-center rounded-md mb-4 text-orange-500 text-2xl w-12 h-12">
-            {icon}
-          </div>
-          <h3 className="text-lg font-bold mb-2">{title}</h3>
-          <p className="text-gray-400">{text}</p>
+      <div className={`${baseClasses} w-full sm:w-[430px] text-left gap-2`}>
+        <div className="bg-[#1F1F1F] p-3 inline-block rounded-md mb-4 text-orange-500 text-2xl">
+          {icon}
         </div>
+        <h3 className="text-lg font-semibold">{title}</h3>
+        <p className="text-gray-400 mt-1">{text}</p>
       </div>
     );
   }

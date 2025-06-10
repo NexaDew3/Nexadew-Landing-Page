@@ -77,12 +77,40 @@
 <a name='L16'></a><a href='#L16'>16</a>
 <a name='L17'></a><a href='#L17'>17</a>
 <a name='L18'></a><a href='#L18'>18</a>
-<a name='L19'></a><a href='#L19'>19</a></td><td class="line-coverage quiet"><span class="cline-any cline-neutral">&nbsp;</span>
+<a name='L19'></a><a href='#L19'>19</a>
+<a name='L20'></a><a href='#L20'>20</a>
+<a name='L21'></a><a href='#L21'>21</a>
+<a name='L22'></a><a href='#L22'>22</a>
+<a name='L23'></a><a href='#L23'>23</a>
+<a name='L24'></a><a href='#L24'>24</a>
+<a name='L25'></a><a href='#L25'>25</a>
+<a name='L26'></a><a href='#L26'>26</a>
+<a name='L27'></a><a href='#L27'>27</a>
+<a name='L28'></a><a href='#L28'>28</a>
+<a name='L29'></a><a href='#L29'>29</a>
+<a name='L30'></a><a href='#L30'>30</a>
+<a name='L31'></a><a href='#L31'>31</a>
+<a name='L32'></a><a href='#L32'>32</a>
+<a name='L33'></a><a href='#L33'>33</a></td><td class="line-coverage quiet"><span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-yes">27x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-yes">27x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
@@ -97,17 +125,31 @@
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">import React from "react";
 &nbsp;
-function Navlinks({ onHomeClick, onServicesClick, onProjectsClick, onContactClick, isMobile }) {
+function Navlinks({
+  onHomeClick,
+  onServicesClick,
+  onProjectsClick,
+  onContactClick,
+  isMobile,
+}) {
   const baseClass = "cursor-pointer hover:underline";
 &nbsp;
   return (
-    &lt;ul className={`flex ${isMobile ? "flex-col space-y-4" : "flex-row space-x-8"}`}&gt;
-      &lt;li onClick={onHomeClick} className={baseClass}&gt;Home&lt;/li&gt;
-      &lt;li onClick={onServicesClick} className={baseClass}&gt;Services&lt;/li&gt;
-      &lt;li onClick={onProjectsClick} className={baseClass}&gt;Projects&lt;/li&gt;
-      &lt;li onClick={onContactClick} className={baseClass}&gt;Contact&lt;/li&gt;
-&nbsp;
-&nbsp;
+    &lt;ul
+      className={`flex ${isMobile ? "flex-col space-y-4" : "flex-row space-x-8"}`}
+    &gt;
+      &lt;li onClick={onHomeClick} className={baseClass}&gt;
+        Home
+      &lt;/li&gt;
+      &lt;li onClick={onServicesClick} className={baseClass}&gt;
+        Services
+      &lt;/li&gt;
+      &lt;li onClick={onProjectsClick} className={baseClass}&gt;
+        Projects
+      &lt;/li&gt;
+      &lt;li onClick={onContactClick} className={baseClass}&gt;
+        Contact
+      &lt;/li&gt;
     &lt;/ul&gt;
   );
 }
@@ -127,8 +169,7 @@ export default Navlinks;
         rel="noopener noreferrer"
         >istanbul</a
       >
-      at 2025-06-09T11:26:54.707Z
-
+      at 2025-06-10T04:42:17.659Z
     </div>
     <script src="../prettify.js"></script>
     <script>
