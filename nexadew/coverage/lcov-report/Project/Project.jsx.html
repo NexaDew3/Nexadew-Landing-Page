@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <title>Code coverage report for Navlinks/Navlinks.jsx</title>
+    <title>Code coverage report for Project/Project.jsx</title>
     <meta charset="utf-8" />
     <link rel="stylesheet" href="../prettify.css" />
     <link rel="stylesheet" href="../base.css" />
@@ -19,19 +19,19 @@
       <div class="pad1">
         <h1>
           <a href="../index.html">All files</a> /
-          <a href="index.html">Navlinks</a> Navlinks.jsx
+          <a href="index.html">Project</a> Project.jsx
         </h1>
         <div class="clearfix">
           <div class="fl pad1y space-right2">
             <span class="strong">100% </span>
             <span class="quiet">Statements</span>
-            <span class="fraction">2/2</span>
+            <span class="fraction">1/1</span>
           </div>
 
           <div class="fl pad1y space-right2">
             <span class="strong">100% </span>
             <span class="quiet">Branches</span>
-            <span class="fraction">2/2</span>
+            <span class="fraction">0/0</span>
           </div>
 
           <div class="fl pad1y space-right2">
@@ -43,7 +43,7 @@
           <div class="fl pad1y space-right2">
             <span class="strong">100% </span>
             <span class="quiet">Lines</span>
-            <span class="fraction">2/2</span>
+            <span class="fraction">1/1</span>
           </div>
         </div>
         <p class="quiet">
@@ -88,21 +88,15 @@
 <a name='L27'></a><a href='#L27'>27</a>
 <a name='L28'></a><a href='#L28'>28</a>
 <a name='L29'></a><a href='#L29'>29</a>
-<a name='L30'></a><a href='#L30'>30</a>
-<a name='L31'></a><a href='#L31'>31</a>
-<a name='L32'></a><a href='#L32'>32</a>
-<a name='L33'></a><a href='#L33'>33</a></td><td class="line-coverage quiet"><span class="cline-any cline-neutral">&nbsp;</span>
+<a name='L30'></a><a href='#L30'>30</a></td><td class="line-coverage quiet"><span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">2x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">27x</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">27x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
@@ -124,38 +118,35 @@
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">import React from "react";
+import Card from "../Card/Card";
 &nbsp;
-function Navlinks({
-  onHomeClick,
-  onServicesClick,
-  onProjectsClick,
-  onContactClick,
-  isMobile,
-}) {
-  const baseClass = "cursor-pointer hover:underline";
-&nbsp;
+function Projects() {
   return (
-    &lt;ul
-      className={`flex ${isMobile ? "flex-col space-y-4" : "flex-row space-x-8"}`}
-    &gt;
-      &lt;li onClick={onHomeClick} className={baseClass}&gt;
-        Home
-      &lt;/li&gt;
-      &lt;li onClick={onServicesClick} className={baseClass}&gt;
-        Services
-      &lt;/li&gt;
-      &lt;li onClick={onProjectsClick} className={baseClass}&gt;
-        Projects
-      &lt;/li&gt;
-      &lt;li onClick={onContactClick} className={baseClass}&gt;
-        Contact
-      &lt;/li&gt;
-    &lt;/ul&gt;
+    &lt;section className="py-12 px-4 text-center"&gt;
+      &lt;h2 className="text-3xl font-bold mb-8 text-white"&gt;Our Work&lt;/h2&gt;
+      &lt;div className="flex flex-col gap-8 items-center"&gt;
+        &lt;Card
+          variant="project"
+          title="Blog Page Design"
+          subtitle="React App"
+          text="Blog Page"
+          link1="https://your-live-link.com"
+          link2="https://github.com/your-repo"
+        /&gt;
+        &lt;Card
+          variant="project"
+          title="Payment Infrastructure Design"
+          subtitle="React App"
+          text="Payment Infrastructure"
+          link1="https://your-live-link.com"
+          link2="https://github.com/your-repo"
+        /&gt;
+      &lt;/div&gt;
+    &lt;/section&gt;
   );
 }
 &nbsp;
-export default Navlinks;
-&nbsp;</pre></td></tr></table></pre>
+export default Projects;</pre></td></tr></table></pre>
 
       <div class="push"></div>
       <!-- for sticky footer -->

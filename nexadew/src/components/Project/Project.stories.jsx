@@ -1,0 +1,14 @@
+// src/components/Projects/Projects.stories.jsx
+
+import React from "react";
+import Projects from "./Projects";
+
+export default {
+  title: "Components/Projects",
+  component: Projects,
+};
+
+const Template = (args) => <Projects {...args} />;
+
+export const Default = Template.bind({});
+Default.args = {};
