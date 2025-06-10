@@ -5,6 +5,7 @@ import Services from "./components/Services/Services";
 import AboutUs from "./components/About/About";
 import Projects from "./components/Project/Project";
 
+
 function App() {
   const homeRef = useRef(null);
   const servicesRef = useRef(null);
@@ -30,7 +31,9 @@ function App() {
       <div>
         <AboutUs />
       </div>
+
       <div ref={servicesRef} >
+
         <Services />
       </div>
 

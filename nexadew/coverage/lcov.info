@@ -36,11 +36,13 @@ SF:src\components\Card\Card.jsx
 FN:3,Card
 FNF:1
 FNH:1
+
 FNDA:16,Card
 DA:5,16
 DA:7,16
 DA:8,3
 DA:15,13
+
 DA:16,7
 DA:27,6
 DA:28,5
@@ -69,6 +71,7 @@ FNDA:24,(anonymous_2)
 DA:5,4
 DA:28,1
 DA:43,24
+
 LF:3
 LH:3
 BRF:0
@@ -123,12 +126,14 @@ FN:3,Navlinks
 FNF:1
 FNH:1
 FNDA:27,Navlinks
+
 DA:10,27
 DA:12,27
 LF:2
 LH:2
 BRDA:14,0,0,7
 BRDA:14,0,1,20
+
 BRF:2
 BRH:2
 end_of_record
