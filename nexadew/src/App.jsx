@@ -3,6 +3,8 @@ import Navbar from "./components/Navbar/Navbar";
 import Home from "./components/Home/Home";
 import Services from "./components/Services/Services";
 import AboutUs from "./components/About/About";
+import Projects from "./components/Project/Project";
+
 
 function App() {
   const homeRef = useRef(null);
@@ -23,18 +25,20 @@ function App() {
         onContactClick={() => scrollToSection(contactRef)}
       />
 
-      <div ref={homeRef} style={{ height: "100vh" }}>
+      <div ref={homeRef}>
         <Home />
       </div>
       <div>
         <AboutUs />
       </div>
-      <div ref={servicesRef} style={{ height: "100vh" }}>
+
+      <div ref={servicesRef} >
+
         <Services />
       </div>
 
-      <div ref={projectsRef} style={{ height: "100vh", paddingTop: "80px" }}>
-        <h1>Projects Section</h1>
+      <div ref={projectsRef}>
+        <Projects/>
       </div>
 
       <div ref={contactRef} style={{ height: "100vh", paddingTop: "80px" }}>
