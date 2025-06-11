@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1749624905304" clover="3.2.0">
-  <project timestamp="1749624905304" name="All files">
-    <metrics statements="52" coveredstatements="52" conditionals="41" coveredconditionals="41" methods="22" coveredmethods="22" elements="115" coveredelements="115" complexity="0" loc="52" ncloc="52" packages="11" files="11" classes="11"/>
+<coverage generated="1749648271218" clover="3.2.0">
+  <project timestamp="1749648271218" name="All files">
+    <metrics statements="53" coveredstatements="53" conditionals="45" coveredconditionals="45" methods="22" coveredmethods="22" elements="120" coveredelements="120" complexity="0" loc="53" ncloc="53" packages="11" files="11" classes="11"/>
     <package name="About">
       <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-      <file name="About.jsx" path="C:\Users\aksha\OneDrive\Desktop\dhanush\Nexadew-Landing-Page\nexadew\src\components\About\About.jsx">
+      <file name="About.jsx" path="C:\Users\dhanu\OneDrive\Desktop\NEXADEW\Nexadew-Landing-Page\nexadew\src\components\About\About.jsx">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
         <line num="5" count="2" type="stmt"/>
       </file>
     </package>
     <package name="Button">
       <metrics statements="1" coveredstatements="1" conditionals="9" coveredconditionals="9" methods="1" coveredmethods="1"/>
-      <file name="Button.jsx" path="C:\Users\aksha\OneDrive\Desktop\dhanush\Nexadew-Landing-Page\nexadew\src\components\Button\Button.jsx">
+      <file name="Button.jsx" path="C:\Users\dhanu\OneDrive\Desktop\NEXADEW\Nexadew-Landing-Page\nexadew\src\components\Button\Button.jsx">
         <metrics statements="1" coveredstatements="1" conditionals="9" coveredconditionals="9" methods="1" coveredmethods="1"/>
         <line num="15" count="32" type="stmt"/>
       </file>
     </package>
     <package name="Card">
-      <metrics statements="9" coveredstatements="9" conditionals="10" coveredconditionals="10" methods="1" coveredmethods="1"/>
-      <file name="Card.jsx" path="C:\Users\aksha\OneDrive\Desktop\dhanush\Nexadew-Landing-Page\nexadew\src\components\Card\Card.jsx">
-        <metrics statements="9" coveredstatements="9" conditionals="10" coveredconditionals="10" methods="1" coveredmethods="1"/>
+      <metrics statements="9" coveredstatements="9" conditionals="14" coveredconditionals="14" methods="1" coveredmethods="1"/>
+      <file name="Card.jsx" path="C:\Users\dhanu\OneDrive\Desktop\NEXADEW\Nexadew-Landing-Page\nexadew\src\components\Card\Card.jsx">
+        <metrics statements="9" coveredstatements="9" conditionals="14" coveredconditionals="14" methods="1" coveredmethods="1"/>
         <line num="5" count="19" type="stmt"/>
         <line num="7" count="19" type="cond" truecount="2" falsecount="0"/>
         <line num="8" count="3" type="stmt"/>
@@ -28,12 +28,12 @@
         <line num="32" count="6" type="cond" truecount="2" falsecount="0"/>
         <line num="33" count="5" type="stmt"/>
         <line num="35" count="5" type="stmt"/>
-        <line num="78" count="1" type="stmt"/>
+        <line num="85" count="1" type="stmt"/>
       </file>
     </package>
     <package name="Contact">
       <metrics statements="13" coveredstatements="13" conditionals="6" coveredconditionals="6" methods="3" coveredmethods="3"/>
-      <file name="Contact.jsx" path="C:\Users\aksha\OneDrive\Desktop\dhanush\Nexadew-Landing-Page\nexadew\src\components\Contact\Contact.jsx">
+      <file name="Contact.jsx" path="C:\Users\dhanu\OneDrive\Desktop\NEXADEW\Nexadew-Landing-Page\nexadew\src\components\Contact\Contact.jsx">
         <metrics statements="13" coveredstatements="13" conditionals="6" coveredconditionals="6" methods="3" coveredmethods="3"/>
         <line num="6" count="1" type="stmt"/>
         <line num="7" count="21" type="stmt"/>
@@ -52,25 +52,26 @@
     </package>
     <package name="Footer">
       <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-      <file name="Footer.jsx" path="C:\Users\aksha\OneDrive\Desktop\dhanush\Nexadew-Landing-Page\nexadew\src\components\Footer\Footer.jsx">
+      <file name="Footer.jsx" path="C:\Users\dhanu\OneDrive\Desktop\NEXADEW\Nexadew-Landing-Page\nexadew\src\components\Footer\Footer.jsx">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
         <line num="4" count="2" type="stmt"/>
       </file>
     </package>
     <package name="Home">
-      <metrics statements="5" coveredstatements="5" conditionals="2" coveredconditionals="2" methods="3" coveredmethods="3"/>
-      <file name="Home.jsx" path="C:\Users\aksha\OneDrive\Desktop\dhanush\Nexadew-Landing-Page\nexadew\src\components\Home\Home.jsx">
-        <metrics statements="5" coveredstatements="5" conditionals="2" coveredconditionals="2" methods="3" coveredmethods="3"/>
-        <line num="11" count="4" type="stmt"/>
-        <line num="35" count="2" type="stmt"/>
-        <line num="36" count="2" type="cond" truecount="2" falsecount="0"/>
-        <line num="37" count="1" type="stmt"/>
-        <line num="55" count="28" type="stmt"/>
+      <metrics statements="6" coveredstatements="6" conditionals="2" coveredconditionals="2" methods="3" coveredmethods="3"/>
+      <file name="Home.jsx" path="C:\Users\dhanu\OneDrive\Desktop\NEXADEW\Nexadew-Landing-Page\nexadew\src\components\Home\Home.jsx">
+        <metrics statements="6" coveredstatements="6" conditionals="2" coveredconditionals="2" methods="3" coveredmethods="3"/>
+        <line num="11" count="1" type="stmt"/>
+        <line num="22" count="4" type="stmt"/>
+        <line num="45" count="2" type="stmt"/>
+        <line num="46" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="47" count="1" type="stmt"/>
+        <line num="67" count="28" type="stmt"/>
       </file>
     </package>
     <package name="InputComponent">
       <metrics statements="2" coveredstatements="2" conditionals="6" coveredconditionals="6" methods="1" coveredmethods="1"/>
-      <file name="InputComponent.jsx" path="C:\Users\aksha\OneDrive\Desktop\dhanush\Nexadew-Landing-Page\nexadew\src\components\InputComponent\InputComponent.jsx">
+      <file name="InputComponent.jsx" path="C:\Users\dhanu\OneDrive\Desktop\NEXADEW\Nexadew-Landing-Page\nexadew\src\components\InputComponent\InputComponent.jsx">
         <metrics statements="2" coveredstatements="2" conditionals="6" coveredconditionals="6" methods="1" coveredmethods="1"/>
         <line num="3" count="2" type="stmt"/>
         <line num="11" count="87" type="stmt"/>
@@ -78,7 +79,7 @@
     </package>
     <package name="Navbar">
       <metrics statements="16" coveredstatements="16" conditionals="6" coveredconditionals="6" methods="8" coveredmethods="8"/>
-      <file name="Navbar.jsx" path="C:\Users\aksha\OneDrive\Desktop\dhanush\Nexadew-Landing-Page\nexadew\src\components\Navbar\Navbar.jsx">
+      <file name="Navbar.jsx" path="C:\Users\dhanu\OneDrive\Desktop\NEXADEW\Nexadew-Landing-Page\nexadew\src\components\Navbar\Navbar.jsx">
         <metrics statements="16" coveredstatements="16" conditionals="6" coveredconditionals="6" methods="8" coveredmethods="8"/>
         <line num="11" count="19" type="stmt"/>
         <line num="13" count="19" type="stmt"/>
@@ -100,7 +101,7 @@
     </package>
     <package name="Navlinks">
       <metrics statements="2" coveredstatements="2" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
-      <file name="Navlinks.jsx" path="C:\Users\aksha\OneDrive\Desktop\dhanush\Nexadew-Landing-Page\nexadew\src\components\Navlinks\Navlinks.jsx">
+      <file name="Navlinks.jsx" path="C:\Users\dhanu\OneDrive\Desktop\NEXADEW\Nexadew-Landing-Page\nexadew\src\components\Navlinks\Navlinks.jsx">
         <metrics statements="2" coveredstatements="2" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
         <line num="10" count="29" type="stmt"/>
         <line num="12" count="29" type="stmt"/>
@@ -108,14 +109,14 @@
     </package>
     <package name="Project">
       <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-      <file name="Project.jsx" path="C:\Users\aksha\OneDrive\Desktop\dhanush\Nexadew-Landing-Page\nexadew\src\components\Project\Project.jsx">
+      <file name="Project.jsx" path="C:\Users\dhanu\OneDrive\Desktop\NEXADEW\Nexadew-Landing-Page\nexadew\src\components\Project\Project.jsx">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
         <line num="5" count="2" type="stmt"/>
       </file>
     </package>
     <package name="Services">
       <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-      <file name="Services.jsx" path="C:\Users\aksha\OneDrive\Desktop\dhanush\Nexadew-Landing-Page\nexadew\src\components\Services\Services.jsx">
+      <file name="Services.jsx" path="C:\Users\dhanu\OneDrive\Desktop\NEXADEW\Nexadew-Landing-Page\nexadew\src\components\Services\Services.jsx">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
         <line num="6" count="3" type="stmt"/>
       </file>
