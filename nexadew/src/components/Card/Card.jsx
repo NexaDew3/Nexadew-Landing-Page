@@ -6,8 +6,13 @@ function Card({ variant, title, subtitle, text, icon }) {
 
   if (variant === "about") {
     return (
-      <div className={`${baseClasses} text-center max-w-3xl mx-auto p-8`}>
-        <p className="text-gray-300">{text}</p>
+      <div className={`${baseClasses} text-left max-w-3xl mx-auto py-10 px-4`}>
+        <p
+          className="text-[18px] font-normal leading-[28px] text-[rgb(209,213,219)]"
+          style={{ fontFamily: "Geist, sans-serif" }}
+        >
+          {text}
+        </p>
       </div>
     );
   }
@@ -54,7 +59,8 @@ function Card({ variant, title, subtitle, text, icon }) {
         <div className="p-8 text-left bg-[#0D0F1A]">
           <h3 className="text-xl font-semibold text-white">{text}</h3>
           <p className="text-gray-400 mt-1">
-            We converted this pixel-perfect Figma design into a responsive React app using Tailwind CSS.
+            We converted this pixel-perfect Figma design into a responsive React
+            app using Tailwind CSS.
           </p>
           <div className="mt-4 flex gap-4 text-orange-500 font-semibold text-sm">
             <a target="_blank" rel="noopener noreferrer" href="#">

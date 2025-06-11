@@ -9,14 +9,7 @@ function AboutUs() {
       </h2>
       <Card
         variant="about"
-        text={
-          <p className="font-[Geist,sans-serif] text-[18px] font-normal leading-[28px] rgb(209, 213, 219) text-left">
-            We specialize in transforming modern UI/UX designs into
-            high-performance, pixel-perfect front-end applications. From Figma
-            to functional React code, we deliver responsive, production-ready
-            interfaces in record time.
-          </p>
-        }
+        text="We specialize in transforming modern UI/UX designs into high-performance, pixel-perfect front-end applications. From Figma to functional React code, we deliver responsive, production-ready interfaces in record time."
       />
     </section>
   );

@@ -4,8 +4,8 @@ import Home from "./components/Home/Home";
 import Services from "./components/Services/Services";
 import AboutUs from "./components/About/About";
 import Projects from "./components/Project/Project";
-
-
+import Footer from "./components/Footer/Footer";
+import Contact from "./components/Contact/Contact";
 
 function App() {
   const homeRef = useRef(null);
@@ -33,22 +33,20 @@ function App() {
         <AboutUs />
       </div>
 
-
       <div ref={servicesRef}>
-
         <Services />
       </div>
 
       <div ref={projectsRef}>
-
         <Projects />
-
       </div>
 
-      <div ref={contactRef} style={{ height: "100vh", paddingTop: "80px" }}>
-        <h1>Contact Section</h1>
+      <div ref={contactRef}>
+        <Contact />
       </div>
-      
+      <div>
+        <Footer />
+      </div>
     </>
   );
 }

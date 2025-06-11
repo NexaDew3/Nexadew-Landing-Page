@@ -45,7 +45,12 @@ function Navbar({
             height="h-10"
             borderRadius="rounded-md"
             hoverStyles="hover:bg-[#1F2937] hover:text-white"
-            onClick={() => alert("Quote requested")}
+            onClick={() => {
+              const contactSection = document.getElementById("contact");
+              if (contactSection) {
+                contactSection.scrollIntoView({ behavior: "smooth" });
+              }
+            }}
           />
         </div>
 
