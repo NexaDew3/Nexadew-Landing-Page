@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import InputComponent from "../InputComponent/InputComponent";
-import { FaLinkedin, FaGithub, FaTwitter, FaYoutube } from "react-icons/fa";
+import { FaLinkedin, FaGithub, FaTwitter, FaInstagram } from "react-icons/fa";
 import logo from "../../assets/logo.png";
 
 const Contact = () => {
@@ -72,32 +72,32 @@ const Contact = () => {
             </div>
             <div className="flex justify-center gap-4 mt-6 text-2xl text-white">
               <a
-                href="https://www.linkedin.com/in/yourprofile"
+                href="https://www.linkedin.com/company/nexa-dew/"
                 target="_blank"
                 rel="noreferrer"
               >
                 <FaLinkedin className="hover:text-blue-500" />
               </a>
               <a
-                href="https://github.com/yourusername"
+                href="https://GitHub.com/nexadew2"
                 target="_blank"
                 rel="noreferrer"
               >
                 <FaGithub className="hover:text-gray-400" />
               </a>
               <a
-                href="https://twitter.com/yourhandle"
+                href="https://x.com/NexaDew?t=XGh26llNtMU6jsP2E0nd5w&s=09"
                 target="_blank"
                 rel="noreferrer"
               >
                 <FaTwitter className="hover:text-blue-400" />
               </a>
               <a
-                href="https://youtube.com/@yourchannel"
+                href="https://www.instagram.com/invites/contact/?utm_source=ig_contact_invite&utm_medium=copy_link&utm_content=y00lgfg"
                 target="_blank"
                 rel="noreferrer"
               >
-                <FaYoutube className="hover:text-red-600" />
+                <FaInstagram className="hover:text-red-600" />
               </a>
             </div>
           </div>

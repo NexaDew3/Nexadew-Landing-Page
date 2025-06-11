@@ -1,1 +1,63 @@
 @import "tailwindcss";
+.logo-section {
+  position: absolute;
+  bottom: 3rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  z-index: 10;
+  padding: 0 1rem;
+}
+
+.logo-heading {
+  color: #ccc;
+  text-align: center;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+
+.logo-slider {
+  overflow: hidden;
+  width: 100%;
+  display: flex;
+  justify-content: center; /* ✅ centers the .logo-track inside */
+}
+
+.logo-track {
+  display: flex;
+  gap: 1.5rem;
+  width: max-content;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Logo image styling */
+.logo-img {
+  width: 48px;
+  height: 48px;
+  flex: 0 0 auto;
+}
+
+.logo-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  border-radius: 50%;
+}
+
+/* Mobile: Enable auto-scroll animation */
+@media (max-width: 640px) {
+  .logo-track {
+    animation: scroll-left 15s linear infinite;
+  }
+
+  @keyframes scroll-left {
+    0% {
+      transform: translateX(0%);
+    }
+    100% {
+      transform: translateX(-50%);
+    }
+  }
+}
