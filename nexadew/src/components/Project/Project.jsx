@@ -3,7 +3,7 @@ import Card from "../Card/Card";
 
 function Projects() {
   return (
-    <section className="py-12 px-4 text-center bg-black min-h-screen">
+    <section className="py-20 px-4 text-center bg-black min-h-screen">
       <h2 className="text-3xl font-bold mb-8 text-white">Our Work</h2>
       <div className="flex flex-col gap-8 items-center">
         <Card
