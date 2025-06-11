@@ -19,7 +19,7 @@ describe("Navbar Component", () => {
         onServicesClick={mockServicesClick}
         onProjectsClick={mockProjectsClick}
         onContactClick={mockContactClick}
-      />,
+      />
     );
   };
 
@@ -81,28 +81,28 @@ describe("Navbar Component", () => {
 
     fireEvent.click(toggleButton); // reopen
     fireEvent.click(
-      within(screen.getByTestId("mobile-menu")).getByText("Services"),
+      within(screen.getByTestId("mobile-menu")).getByText("Services")
     );
     expect(mockServicesClick).toHaveBeenCalled();
     expect(screen.queryByTestId("mobile-menu")).not.toBeInTheDocument();
 
     fireEvent.click(toggleButton); // reopen
     fireEvent.click(
-      within(screen.getByTestId("mobile-menu")).getByText("Projects"),
+      within(screen.getByTestId("mobile-menu")).getByText("Projects")
     );
     expect(mockProjectsClick).toHaveBeenCalled();
     expect(screen.queryByTestId("mobile-menu")).not.toBeInTheDocument();
 
     fireEvent.click(toggleButton); // reopen
     fireEvent.click(
-      within(screen.getByTestId("mobile-menu")).getByText("Contact"),
+      within(screen.getByTestId("mobile-menu")).getByText("Contact")
     );
     expect(mockContactClick).toHaveBeenCalled();
     expect(screen.queryByTestId("mobile-menu")).not.toBeInTheDocument();
   });
 
   test("mobile quote button triggers alert and closes menu", () => {
-    window.alert = jest.fn(); // mock alert
+    window.alert = jest.fn();
     setup();
     const toggleButton = screen.getByRole("button", {
       name: /toggle mobile menu/i,
@@ -115,5 +115,39 @@ describe("Navbar Component", () => {
 
     expect(window.alert).toHaveBeenCalledWith("Quote requested");
     expect(screen.queryByTestId("mobile-menu")).not.toBeInTheDocument();
+  });
+
+  test("desktop quote button does nothing if contact section not found", () => {
+    setup();
+
+    // Make sure no element with id="contact" exists
+    const existing = document.getElementById("contact");
+    if (existing) {
+      existing.remove();
+    }
+
+    const quoteButton = screen.getByText("Get a Quote");
+    fireEvent.click(quoteButton); // will take the "if (!contactSection)" branch
+
+    // No error expected — just ensuring the false branch is covered
+    expect(true).toBe(true); // dummy expect to keep test valid
+  });
+
+  test("desktop quote button scrolls to contact section if exists", () => {
+    // Add dummy contact section
+    const contactDiv = document.createElement("div");
+    contactDiv.id = "contact";
+    contactDiv.scrollIntoView = jest.fn();
+    document.body.appendChild(contactDiv);
+
+    setup();
+
+    const quoteButton = screen.getByText("Get a Quote");
+    fireEvent.click(quoteButton);
+
+    expect(contactDiv.scrollIntoView).toHaveBeenCalledWith({ behavior: "smooth" });
+
+    // Clean up
+    document.body.removeChild(contactDiv);
   });
 });

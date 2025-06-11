@@ -11,12 +11,16 @@ function Projects() {
           title="Blog Page Design"
           subtitle="React App"
           text="Blog Page"
+          liveLink="https://blog-figma-y65j.vercel.app/"
+          codeLink="https://github.com/NexaDew/Blog-figma"
         />
         <Card
           variant="project"
           title="Payment Infrastructure Design"
           subtitle="React App"
           text="Payment Infrastructure"
+          liveLink="https://react-profile-e3d3.vercel.app/"
+          codeLink="https://github.com/NexaDew/Payment-Infra"
         />
       </div>
     </section>
