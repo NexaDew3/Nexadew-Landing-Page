@@ -8,6 +8,22 @@ function Projects() {
       <div className="flex flex-col gap-8 items-center">
         <Card
           variant="project"
+          title="Whitespace"
+          subtitle="React App"
+          text="Whitespace"
+          liveLink="https://whitespace-a.vercel.app/"
+          codeLink="https://github.com/NexaDew2/Whitespace-A"
+        />
+        <Card
+          variant="project"
+          title="Beema Assurance"
+          subtitle="React App"
+          text="Beema Assurance"
+          liveLink="https://beema-assurance-a.vercel.app/"
+          codeLink="https://github.com/NexaDew2/BeemaAssurance-A"
+        />
+        <Card
+          variant="project"
           title="Blog Page Design"
           subtitle="React App"
           text="Blog Page"
