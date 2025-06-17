@@ -1,6 +1,6 @@
 import React from "react";
 
-function Card({ variant, title, subtitle, text, icon ,liveLink, codeLink }) {
+function Card({ variant, title, subtitle, text, icon, liveLink, codeLink }) {
   const baseClasses =
     "bg-[#0D0F1A] text-white rounded-xl border border-gray-800 p-0 shadow-md overflow-hidden";
 
@@ -29,13 +29,16 @@ function Card({ variant, title, subtitle, text, icon ,liveLink, codeLink }) {
     );
   }
 
- if (variant === "project") {
-    const isPayment = title === "Payment Infrastructure Design";
+  if (variant === "project") {
+    // Title-based condition to switch color layout
+    const isPayment = ["payment infrastructure design", "beema assurance"].includes(
+      title.toLowerCase()
+    );
 
     return (
-      <div className="rounded-lg overflow-hidden w-full shadow-lg ">
+      <div className="rounded-lg overflow-hidden w-full shadow-lg">
         {/* Top Bar */}
-        <div className="flex flex-col md:flex-row h-20 ">
+        <div className="flex flex-col md:flex-row h-20">
           {/* Left (Title) */}
           <div
             className={`flex-1 flex items-center justify-center px-6 py-3 text-sm font-bold uppercase text-white ${
@@ -63,18 +66,10 @@ function Card({ variant, title, subtitle, text, icon ,liveLink, codeLink }) {
             app using Tailwind CSS.
           </p>
           <div className="mt-4 flex gap-4 text-orange-500 font-semibold text-sm">
-            <a
-              target="_blank"
-              rel="noopener noreferrer"
-              href={liveLink || "#"}
-            >
+            <a target="_blank" rel="noopener noreferrer" href={liveLink || "#"}>
               View Live →
             </a>
-            <a
-              target="_blank"
-              rel="noopener noreferrer"
-              href={codeLink || "#"}
-            >
+            <a target="_blank" rel="noopener noreferrer" href={codeLink || "#"}>
               View Code →
             </a>
           </div>
@@ -82,7 +77,8 @@ function Card({ variant, title, subtitle, text, icon ,liveLink, codeLink }) {
       </div>
     );
   }
-  return null; // or some fallback UI
+
+  return null;
 }
 
 export default Card;

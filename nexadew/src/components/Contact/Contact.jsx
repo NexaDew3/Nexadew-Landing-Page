@@ -64,7 +64,7 @@ const Contact = () => {
             />
             <h2 className="text-3xl font-bold">Nexadew</h2>
             <p className="text-gray-300 mt-2 text-lg py-3">
-              For hiring and collaborations, connect with me via email.
+              For hiring and collaborations, connect with us via email.
             </p>
             <div className="mt-4 text-gray-300">
               <p className="text-lg py-2">📞 +91 9900502164</p>
