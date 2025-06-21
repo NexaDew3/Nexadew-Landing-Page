@@ -11,6 +11,7 @@ const Contact = () => {
     subject: "",
     message: "",
   });
+
   const [status, setStatus] = useState("");
 
   const handleChange = (e) => {
@@ -19,6 +20,20 @@ const Contact = () => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
+
+    // Phone number validation (10 digits only)
+    const phoneRegex = /^\d{10}$/;
+    if (!phoneRegex.test(formData.phone)) {
+      setStatus("Phone number must be exactly 10 digits.");
+      return;
+    }
+
+    // Email validation (@gmail.com only)
+    const emailRegex = /^[a-zA-Z0-9._%+-]+@gmail\.com$/;
+    if (!emailRegex.test(formData.email)) {
+      setStatus("Email must be a valid @gmail.com address.");
+      return;
+    }
 
     const res = await fetch("https://formsubmit.co/ajax/sales@nexadew.com", {
       method: "POST",
